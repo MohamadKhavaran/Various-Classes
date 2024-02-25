@@ -10,9 +10,13 @@ namespace Various_Classes
     {
         static void Main(string[] args)
         {
-            ClassPartial classPartial = new ClassPartial();
-            classPartial.SayHello();
-            classPartial.SayGoodBy(); 
+            //ClassPartial classPartial = new ClassPartial();
+            //classPartial.SayHello();
+            //classPartial.SayGoodBy(); 
+            Home home = new Home();
+            home.Doors();
+            home.Windows();
+            home.Garden();
         }
     }
 }
