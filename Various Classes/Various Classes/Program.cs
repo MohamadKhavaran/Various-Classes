@@ -17,8 +17,10 @@ namespace Various_Classes
             //home.Doors();
             //home.Windows();
             //home.Garden();
-            PolymorphismAnimal myCat = new DrivedCats();
-            myCat.AnimalSound();
+            //PolymorphismAnimal myCat = new DrivedCats();
+            //myCat.AnimalSound();
+            AbstractAnimal  A = new DrivedDogs();
+            A.AnimalSound();
         }
     }
 }

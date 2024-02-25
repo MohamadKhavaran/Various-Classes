@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Various_Classes
 {
-    // Dor Polymorphism 
-    internal class DrivedCats : PolymorphismAnimal
+    // For Abstract Class
+    internal class DrivedDogs : AbstractAnimal
     {
         internal override void AnimalSound()
         {
-            Console.WriteLine("Mew Mew");
+            Console.WriteLine("Bow Bow");
         }
     }
 }
