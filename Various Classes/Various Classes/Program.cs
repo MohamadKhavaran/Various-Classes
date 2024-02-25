@@ -10,6 +10,9 @@ namespace Various_Classes
     {
         static void Main(string[] args)
         {
+            ClassPartial classPartial = new ClassPartial();
+            classPartial.SayHello();
+            classPartial.SayGoodBy(); 
         }
     }
 }
