@@ -8,7 +8,7 @@ namespace Various_Classes
 {
     internal class Home : InterfaceBuilding
     {
-        public void Doors() 
+        public void  Doors() 
         {
             Console.WriteLine("Doors");
         }

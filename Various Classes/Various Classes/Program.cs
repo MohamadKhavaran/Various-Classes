@@ -13,10 +13,12 @@ namespace Various_Classes
             //ClassPartial classPartial = new ClassPartial();
             //classPartial.SayHello();
             //classPartial.SayGoodBy(); 
-            Home home = new Home();
-            home.Doors();
-            home.Windows();
-            home.Garden();
+            //Home home = new Home();
+            //home.Doors();
+            //home.Windows();
+            //home.Garden();
+            PolymorphismAnimal myCat = new DrivedCats();
+            myCat.AnimalSound();
         }
     }
 }
