@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Various_Classes
 {
-    abstract internal class AbstractAnimal
+    static internal class StaticClass
     {
-        internal abstract void AnimalSound(); 
+        internal static void Print()
+        {
+            Console.WriteLine("This is StaticClass");
+        }
     }
 }

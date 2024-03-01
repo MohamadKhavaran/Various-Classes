@@ -19,8 +19,9 @@ namespace Various_Classes
             //home.Garden();
             //PolymorphismAnimal myCat = new DrivedCats();
             //myCat.AnimalSound();
-            AbstractAnimal  A = new DrivedDogs();
-            A.AnimalSound();
+            //AbstractAnimal  A = new DrivedDogs();
+            //A.AnimalSound();
+            StaticClass.Print();
         }
     }
 }
